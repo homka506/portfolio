@@ -25,6 +25,16 @@ a {
   text-decoration: none;
 }
 
+#custom-navbar {
+  transition: padding 0.3s, background-color 0.3s, opacity 0.3s;
+}
+
+#custom-navbar.scrolled {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--background-color);
+}
+
 .nav-link {
   font-family: 'DM Sans', sans-serif;
   color: var(--secondary-color);
@@ -124,14 +134,34 @@ a {
   list-style: none;
 }
 
-.contacts {
-  height: 100vh;
-}
 
 .contacts span {
   font-size: 5rem;
 }
 
 .contacts a:hover i {
-  color: var(--primary-color)!important;
+  color: var(--primary-color) !important;
 }
+
+footer a {
+  color: var(--secondary-color);
+}
+
+footer span {
+  font-size: 2rem;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+}
+
+footer a:hover i {
+  color: var(--primary-color) !important;
+}
+ @media (min-width: 1200px) {
+   .fixed-md-bottom {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+   }
+ }
