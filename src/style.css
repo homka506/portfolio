@@ -3,8 +3,6 @@
   --secondary-color: #A7A7A7;
   --background-color: #191919;
   --secondary-background-color: #363636;
-  --primary-font: font-family: 'Poppins', sans-serif;
-  --secondary-font: font-family: 'DM Sans', sans-serif;
 }
 
 body {
@@ -23,6 +21,10 @@ a {
   font-style: normal;
 }
 
+.nav-link {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--secondary-color);
+}
 
 .hero {
   height: 100vh;
@@ -107,4 +109,16 @@ a {
 .projects_item_links a {
   color: white;
   cursor: pointer;
+}
+
+.about p,
+.about li{
+color:white;
+}
+.about_title
+{
+  color: var(--secondary-color);
+}
+.about ul{
+  list-style: none;
 }
