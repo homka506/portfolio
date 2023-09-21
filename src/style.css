@@ -21,6 +21,10 @@ a {
   font-style: normal;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-link {
   font-family: 'DM Sans', sans-serif;
   color: var(--secondary-color);
@@ -112,13 +116,22 @@ a {
 }
 
 .about p,
-.about li{
-color:white;
+.about li {
+  color: white;
 }
-.about_title
-{
-  color: var(--secondary-color);
-}
-.about ul{
+
+.about ul {
   list-style: none;
+}
+
+.contacts {
+  height: 100vh;
+}
+
+.contacts span {
+  font-size: 5rem;
+}
+
+.contacts a:hover i {
+  color: var(--primary-color)!important;
 }
