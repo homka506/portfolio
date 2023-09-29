@@ -29,7 +29,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark" id="custom-navbar">
             <div class="container  d-flex justify-content-between align-items-lg-center p-0">
-                <a class="navbar-brand p-0" href="index.html"  title="Homepage">
+                <a class="navbar-brand p-0" href="index.html" title="Homepage">
                     <img src="/images/logo.svg" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -39,10 +39,13 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active me-md-3" aria-current="page" href="index.html" title="Homepage">Home</a>
+                        <a class="nav-link active me-md-3" aria-current="page" href="index.html"
+                            title="Homepage">Home</a>
                         <a class="nav-link me-md-3" href="about.html" title="About Polina Kalashnikova">About</a>
-                        <a class="nav-link me-md-3" href="stack.html" title="Tech stack Polina Kalashnikova">Tech Stack</a>
-                        <a class="nav-link me-md-3" href="projects.html" title="Projects Polina Kalashnikova">Projects</a>
+                        <a class="nav-link me-md-3" href="stack.html" title="Tech stack Polina Kalashnikova">Tech
+                            Stack</a>
+                        <a class="nav-link me-md-3" href="projects.html"
+                            title="Projects Polina Kalashnikova">Projects</a>
                         <a class="nav-link" href="contact.html" title="Contact Polina Kalashnikova">Contact</a>
                     </div>
                 </div>
@@ -112,26 +115,67 @@
             <div class="row mt-3 mt-md-5">
                 <div class="col-12 col-md-6 mb-3 mb-md-0 d-flex">
                     <div class="projects_item rounded-5 p-4 d-flex flex-column align-items-stretch">
-                        <div class="img-container mb-2">
-                            <img src="./images/weather.jpg" alt="weather app" class="img-fluid">
+                        <div class="img-container mb-2" style="background-image: url('./images/weather.jpg');">
                         </div>
                         <div class="projects_item_text">
                             <h4 class="projects_title">WeatherNow - Your Real-Time Weather Forecast App</h4>
-                            <p class="projects_text">Welcome to WeatherNow, your one-stop weather app. Get real-time
-                                weather, search cities worldwide, and see a 5-day
-                                forecast. Switch between Celsius and Fahrenheit.</p>
-                            <p class="projects_text--light">
-                                Tech stack: <span>HTML, CSS, Bootstrap, JavaScript.</span>
-                            </p>
+                            <div>
+                                <p class="projects_text">Welcome to WeatherNow, your one-stop weather app. Get real-time
+                                    weather, search cities worldwide, and see a 5-day
+                                    forecast. Switch between Celsius and Fahrenheit.</p>
+                                <p>
+                                    Key project pages include:
+                                </p>
+                                <ul class="ps-0">
+                                    <li class="mb-2"><em>Real-Time Weather Updates:</em>
+                                        WeatherNow provides you with up-to-the-minute weather
+                                        information, ensuring you're always
+                                        prepared for whatever Mother Nature has in store.</li>
+                                    <li class="mb-2">
+                                        <em>City Search:</em>
+                                        Easily search for cities around the globe to check their current
+                                        weather
+                                        conditions. Whether you're
+                                        planning a trip or just curious about the weather elsewhere, WeatherNow has you
+                                        covered.
+                                    </li>
+                                    <li class="mb-2">
+                                        <em>
+                                            5-Day Forecast:
+                                        </em>
+                                        Get a glimpse into the future with our 5-day weather forecast. Plan your
+                                        week accordingly with a
+                                        detailed outlook on upcoming weather patterns.
+                                    </li>
+                                    <li class="mb-2">
+                                        <em>
+                                            Temperature Conversion:
+                                        </em>
+                                        WeatherNow allows you to switch between Celsius and Fahrenheit
+                                        temperature formats effortlessly.
+                                        Customize your experience to match your preferred units.
+                                    </li>
+                                </ul>
+                                <p>Stay informed and make the most of your day with WeatherNow. No matter where you are
+                                    or
+                                    where you're going, WeatherNow
+                                    has the weather information you need at your fingertips. Download our app today and
+                                    embrace the convenience of staying
+                                    connected to the weather, anytime, anywhere.</p>
+
+                                <p class="projects_text--light">
+                                    Tech stack: <span>HTML, CSS, Bootstrap, JavaScript.</span>
+                                </p>
+                            </div>
                         </div>
                         <div class="projects_item_links d-flex flex-row justify-content-between mt-auto">
-                            <a href="https://preeminent-druid-c014b7.netlify.app/" class="w-50">
+                            <a href="https://preeminent-druid-c014b7.netlify.app/" target="_blank" class="w-50">
                                 <span>
                                     <i class="fa-solid fa-link" style="color: #fff;"></i>
                                 </span>
                                 Live Preview
                             </a>
-                            <a href="https://github.com/homka506/weather" class="w-50 text-right">
+                            <a href="https://github.com/homka506/weather" target="_blank" class="w-50 text-right">
                                 <span>
                                     <i class="fa-brands fa-github" style="color: #fff;"></i>
                                 </span>
@@ -142,47 +186,162 @@
                 </div>
                 <div class="col-12 col-md-6 mb-3 mb-md-0 d-flex">
                     <div class="projects_item rounded-5 p-4 d-flex flex-column align-items-stretch">
-                        <div class="img-container mb-2">
-                            <img src="./images/borsch.jpg" alt="weather app" class="img-fluid">
+                        <div class="img-container mb-2" style="background-image: url('./images/mecanicus.jpg');">
                         </div>
                         <div class="projects_item_text">
-                            <h4 class="projects_title">Lorem Ipsum</h4>
-                            <p class="projects_text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard
-                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially
-                                unchanged.</p>
-                            <p class="projects_text--light">
-                                Tech stack: <span>HTML, CSS.</span>
-                            </p>
+                            <h4 class="projects_title">Mecanicus</h4>
+                            <div>
+                                <p class="projects_text">Mecanicus is a website for an auto repair shop that specializes
+                                    in restoring and selling automobiles. The
+                                    website was developed using the Webflow platform and incorporates HTML, CSS,
+                                    JavaScript,
+                                    and the Finsweet library to
+                                    implement various functional features.
+                                </p>
+                                <p class="projects_text">Key project pages include:</p>
+                                <ul class="ps-0">
+                                    <li class="mb-2"><em>Acheter (Buy): </em>Users can browse available automobiles for
+                                        sale and
+                                        access
+                                        information about them, including photos,
+                                        specifications, and prices.</li>
+                                    <li class="mb-2"><em>Vendre (Sell):</em> Information about how to offer one's car
+                                        for sale
+                                        through
+                                        "Mecanicus."</li>
+                                    <li class="mb-2">
+                                        <em>House of Meca:</em> Description of "Mecanicus" garage, its services, and
+                                        features.
+                                    </li>
+                                    <li class="mb-2">
+                                        <em> News:</em> Page for publishing news, announcements, and updates related to
+                                        the auto
+                                        shop
+                                        and
+                                        the automotive industry.
+
+                                    </li>
+                                    <li class="mb-2">
+                                        <em> Videos:</em> Access to video materials related to the shop's work and
+                                        automobile
+                                        restoration.
+                                    </li>
+                                    <li class="mb-2"><em>Autopedia:</em> A collection of useful articles and resources
+                                        related to
+                                        automotive
+                                        technology and maintenance.</li>
+                                    <li class="mb-2">
+                                        <em>Recherche (Search):</em> Ability to search among available cars based on
+                                        various
+                                        criteria
+                                        (make, model, year, etc.).
+                                    </li>
+                                    <li class="mb-2">
+                                        <em>Contact:</em> Contact information for reaching "Mecanicus," including the
+                                        address,
+                                        phone
+                                        number, and a contact form.
+                                    </li>
+                                </ul>
+                            </div>
+                            Additionally, data migration from the old website was carried out, preserving valuable
+                            data and resources for users."
                         </div>
-                        <div class="projects_item_links d-flex flex-row justify-content-between mt-auto">
-                            <a href="https://preeminent-druid-c014b7.netlify.app/" class="w-50">
+                        <p class="projects_text--light">
+                            Tech stack: <span>HTML, CSS, JavaScript,Finsweet library </span>
+                        </p>
+                        <div class="projects_item_links d-flex flex-column justify-content-between mt-auto">
+                            <a href="https://www.mecanicus.com/" target="_blank" class="w-50">
                                 <span>
                                     <i class="fa-solid fa-link" style="color: #fff;"></i>
                                 </span>
                                 Live Preview
                             </a>
-                            <a href="https://github.com/homka506/weather" class="w-50 text-right">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mt-md-5">
+                <div class="col-12 col-md-6 mb-3 mb-md-0 d-flex">
+                    <div class="projects_item rounded-5 p-4 d-flex flex-column align-items-stretch">
+                        <div class="img-container mb-2"
+                            style="background-image: url('./images/Du_Vert_Dans_La_Vigne.jpg');">
+                        </div>
+                        <div class="projects_item_text">
+                            <h4 class="projects_title">Du Vert Dans La Vigne</h4>
+                            <div>
+                                <p class="projects_text">"Du Vert Dans La Vigne" is an independent grassroots
+                                    organization dedicated to the preservation and conservation of the
+                                    environment and nature. The organization works on vineyard and winemaking projects
+                                    aimed at supporting sustainable and
+                                    environmentally friendly methods of grape cultivation and wine production.
+
+                                    This project aims to create a landing page for "Du Vert Dans La Vigne," which will
+                                    serve as an informational and
+                                    communication hub for the organization and its activities. The landing page is being
+                                    developed on the Webflow platform
+                                    and utilizes technologies such as HTML, CSS, and JavaScript to create the website.
+                                </p>
+                                <p class="projects_text--light">
+                                    Tech stack: <span>HTML, CSS, JavaScript.</span>
+                                </p>
+                            </div>
+                            <div class="projects_item_links d-flex flex-row justify-content-between mt-auto">
+                                <a href="https://www.vert-vigne.fr/" target="_blank" class="w-50">
+                                    <span>
+                                        <i class="fa-solid fa-link" style="color: #fff;"></i>
+                                    </span>
+                                    Live Preview
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3 mb-md-0 d-flex">
+                    <div class="projects_item rounded-5 p-4 d-flex flex-column align-items-stretch">
+                        <div class="img-container mb-2" style="background-image: url('./images/Job_abroad.jpg');">
+
+                        </div>
+                        <div class="projects_item_text">
+                            <h4 class="projects_title">JobAbroad - Housing Search Service Abroad</h4>
+                            <div>
+                                <p class="projects_text">Project Description:
+                                    "JobAbroad" is a web service developed for people seeking new housing and job
+                                    opportunities anywhere in the world. With
+                                    this service, users can easily find and select housing according to their needs and
+                                    capabilities in any country or city.
+                                </p>
+                            </div>
+                            Additionally, data migration from the old website was carried out, preserving valuable
+                            data and resources for users.
+                        </div>
+                        <p class="projects_text--light">
+                            Tech stack: <span>HTML, CSS, JavaScript, jQuery, Zurb Foundation</span>
+                        </p>
+                        <div class="projects_item_links d-flex flex-column justify-content-between mt-auto">
+                            <a href="https://github.com/homka506/weather" target="_blank" class="w-50 text-right">
                                 <span>
                                     <i class="fa-brands fa-github" style="color: #fff;"></i>
                                 </span>
                                 View Code
                             </a>
+
                         </div>
+
                     </div>
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
 
     </div>
     </div>
     <footer class="text-center text-lg-start text-white">
         <div class="container   my-0 my-md-5">
             <div class="row border-bottom pb-0 pb-md-5">
-                <div class="col-12 col-xl-6 d-flex justify-content-center justify-content-md-start  align-items-center pb-3 pb-xl-0">
+                <div
+                    class="col-12 col-xl-6 d-flex justify-content-center justify-content-md-start  align-items-center pb-3 pb-xl-0">
                     <a class="navbar-brand p-0" href="index.html">
                         <img src="/images/logo.svg" alt="logo">
                     </a>
@@ -230,10 +389,13 @@
             <div class="row pt-3 pt-md-5">
                 <div class="col-12 col-md-6">
                     <div class="navbar-nav d-flex flex-column flex-md-row">
-                        <a class="nav-link active me-md-3" aria-current="page" href="index.html" title="Homepage">Home</a>
+                        <a class="nav-link active me-md-3" aria-current="page" href="index.html"
+                            title="Homepage">Home</a>
                         <a class="nav-link me-md-3" href="about.html" title="About Polina Kalashnikova">About</a>
-                        <a class="nav-link me-md-3" href="stack.html" title="Tech stack Polina Kalashnikova">Tech Stack</a>
-                        <a class="nav-link me-md-3" href="projects.html" title="Projects Polina Kalashnikova">Projects</a>
+                        <a class="nav-link me-md-3" href="stack.html" title="Tech stack Polina Kalashnikova">Tech
+                            Stack</a>
+                        <a class="nav-link me-md-3" href="projects.html"
+                            title="Projects Polina Kalashnikova">Projects</a>
                         <a class="nav-link" href="contact.html" title="Contact Polina Kalashnikova">Contact</a>
                     </div>
 

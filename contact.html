@@ -156,5 +156,18 @@
 
     </footer>
 </body>
+<script>
+    function withContext() {
+        var obj = {
+            name: 'obj2',
+            a: () => this,
+            b: function () { return this }
+        }
+
+        console.log(obj.a().name); 
+        console.log(obj.b().name); 
+    };
+
+</script>
 
 </html>
