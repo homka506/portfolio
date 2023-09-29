@@ -86,12 +86,14 @@ a {
   font-weight: 400;
 }
 
-.tech_stack span {
+.tech_stack i {
   font-size: 5rem;
 }
-
+.tech_stack{
+    color: var(--secondary-color);
+} 
 @media (max-width: 768px) {
-  .tech_stack span {
+  .tech_stack i {
     font-size: 3rem;
   }
 }
@@ -111,8 +113,8 @@ a {
 
 @media (max-width: 768px) {
   .img-container {
-    height: auto;
-    overflow: hidden;
+    height: 10rem;
+    background-size:100%;
   }
 }
 
