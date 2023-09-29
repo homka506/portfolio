@@ -6,10 +6,15 @@
 }
 
 body {
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding:0.5rem 0;
   background-color: var(--background-color);
+  background-image: url("/images/logo_2.svg");
+  background-repeat: space repeat;
 }
-
+.container{
+    background-color: var(--background-color);
+}
 h1,
 h2,
 h3,
@@ -89,9 +94,11 @@ a {
 .tech_stack i {
   font-size: 5rem;
 }
-.tech_stack{
-    color: var(--secondary-color);
-} 
+
+.tech_stack {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 768px) {
   .tech_stack i {
     font-size: 3rem;
@@ -114,7 +121,7 @@ a {
 @media (max-width: 768px) {
   .img-container {
     height: 10rem;
-    background-size:100%;
+    background-size: 100%;
   }
 }
 
@@ -174,10 +181,3 @@ footer a:hover i {
   color: var(--primary-color) !important;
 }
 
-@media (min-width: 1200px) {
-  .fixed-md-bottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-}
